@@ -1,0 +1,197 @@
+{
+  "n": 13707,
+  "positives": 1046,
+  "prevalence": 0.07631137375063836,
+  "n_features": {
+    "SIZE": 6,
+    "FULL": 37
+  },
+  "models": {
+    "rule_smaller_is_riskier": {
+      "auc": 0.6810907254523497,
+      "auc_ci": [
+        0.6628775421996108,
+        0.6980368276614631
+      ],
+      "avg_precision": 0.1421411172368048,
+      "ap_ci": [
+        0.13001355008678683,
+        0.15616506214809747
+      ],
+      "precision_top10pct": 0.17213712618526622,
+      "ptop10_ci": [
+        0.15317286652078774,
+        0.18964259664478483
+      ]
+    },
+    "logistic_regression_SIZE": {
+      "auc": 0.6586952027295697,
+      "auc_ci": [
+        0.6398047033363404,
+        0.6765025988568026
+      ],
+      "avg_precision": 0.12835725349622956,
+      "ap_ci": [
+        0.11583419127972745,
+        0.1412707932296345
+      ],
+      "precision_top10pct": 0.14806710430342815,
+      "ptop10_ci": [
+        0.13129102844638948,
+        0.16776075857038658
+      ]
+    },
+    "gradient_boosting_SIZE": {
+      "auc": 0.7019391386173618,
+      "auc_ci": [
+        0.6839070141856333,
+        0.7181072979799291
+      ],
+      "avg_precision": 0.1660810451497279,
+      "ap_ci": [
+        0.15030359855515962,
+        0.18585419057194671
+      ],
+      "precision_top10pct": 0.2064186725018235,
+      "ptop10_ci": [
+        0.18526622902990517,
+        0.22830051057622175
+      ]
+    },
+    "logistic_regression_FULL": {
+      "auc": 0.7144850048393895,
+      "auc_ci": [
+        0.697607506365614,
+        0.7298997513950471
+      ],
+      "avg_precision": 0.1826756771627116,
+      "ap_ci": [
+        0.16562487106630847,
+        0.203603656412112
+      ],
+      "precision_top10pct": 0.21517140773158278,
+      "ptop10_ci": [
+        0.1950948212983224,
+        0.23743617797228297
+      ]
+    },
+    "gradient_boosting_FULL": {
+      "auc": 0.7586894942282975,
+      "auc_ci": [
+        0.7433292704194309,
+        0.7732871813247966
+      ],
+      "avg_precision": 0.24448818876525244,
+      "ap_ci": [
+        0.2203344614047335,
+        0.27250910356328767
+      ],
+      "precision_top10pct": 0.25018234865062,
+      "ptop10_ci": [
+        0.22791757840991977,
+        0.2775528811086798
+      ]
+    }
+  },
+  "gbm_full_permutation_importance_auc_drop": {
+    "log_pop01": 0.0784,
+    "other_worker_share": 0.0203,
+    "child_share": 0.011,
+    "female_literacy": 0.0092,
+    "female_per_male": 0.0083,
+    "sc_share": 0.0068,
+    "cultivator_share": 0.0055,
+    "sub_mean_logpop": 0.0053,
+    "has_primary_school": 0.0053,
+    "has_paved_road": 0.0031,
+    "log_density01": 0.0031,
+    "land_area01": 0.0027,
+    "ag_labour_share": 0.0027,
+    "literacy": 0.0023,
+    "irrigated_share": 0.0017,
+    "has_power": 0.0015,
+    "forest_share": 0.0013,
+    "has_bank": 0.0011,
+    "has_phone": 0.0011,
+    "has_handpump": 0.0009,
+    "log_dist_town_km": 0.0007,
+    "worker_share": 0.0007,
+    "has_mud_road": 0.0003,
+    "footpath_only": 0.0003,
+    "marginal_worker_share": 0.0002,
+    "has_tap_water": 0.0001,
+    "has_bus": 0.0001,
+    "has_medical_facility": 0.0,
+    "has_secondary_school": 0.0,
+    "has_hospital": 0.0,
+    "has_post_office": -0.0,
+    "st_share": -0.0001,
+    "has_health_centre": -0.0001,
+    "has_middle_school": -0.0001,
+    "sub_median_logdens": -0.0007,
+    "household_size": -0.001,
+    "sub_n_units": -0.0016
+  },
+  "depop_rate_by_amenity": {
+    "has_paved_road": {
+      "0": {
+        "depop_rate": 0.0869,
+        "n": 9940
+      },
+      "1": {
+        "depop_rate": 0.0484,
+        "n": 3764
+      }
+    },
+    "has_primary_school": {
+      "0": {
+        "depop_rate": 0.1194,
+        "n": 4522
+      },
+      "1": {
+        "depop_rate": 0.0551,
+        "n": 9182
+      }
+    },
+    "has_medical_facility": {
+      "0": {
+        "depop_rate": 0.083,
+        "n": 11174
+      },
+      "1": {
+        "depop_rate": 0.0466,
+        "n": 2530
+      }
+    },
+    "has_power": {
+      "0": {
+        "depop_rate": 0.1029,
+        "n": 2770
+      },
+      "1": {
+        "depop_rate": 0.0696,
+        "n": 10934
+      }
+    },
+    "has_bus": {
+      "0": {
+        "depop_rate": 0.0806,
+        "n": 10949
+      },
+      "1": {
+        "depop_rate": 0.0592,
+        "n": 2753
+      }
+    },
+    "has_tap_water": {
+      "0": {
+        "depop_rate": 0.0694,
+        "n": 850
+      },
+      "1": {
+        "depop_rate": 0.0768,
+        "n": 12854
+      }
+    }
+  }
+}
