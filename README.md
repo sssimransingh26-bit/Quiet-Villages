@@ -3,7 +3,7 @@
 **Can the 2001 census tell us which Uttarakhand villages lost most of their people by 2011?**
 
 An experiment for the DEV Hacktoberfest Open-Source AI Challenge, Week 4 (*Ghost in the Machine*).
-Full write-up: [`results/post.md`](results/post.md).
+Full write-up: [`results/post.md`](https://dev.to/i_am_thor/the-villages-that-went-quiet-what-2001-census-data-can-and-cant-predict-in-uttarakhand-oh0).
 
 ![Results](results/quiet_villages_results.png)
 
